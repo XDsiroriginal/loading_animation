@@ -4,7 +4,7 @@ body {
 }
 
 .load_box {
-	border: 6px solid;
+	border: 2px solid;
 	border-image: linear-gradient(0deg, black, white) 5;
 	margin: 50% auto;
 	width: 150px;
