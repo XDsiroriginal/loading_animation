@@ -4,11 +4,11 @@ body {
 }
 
 .load_box {
-	border: 2px solid;
+	border: 6px solid;
 	border-image: linear-gradient(0deg, black, white) 5;
 	margin: 50% auto;
-	width: 150px;
-	height: 150px;
+	width: 125px;
+	height: 125px;
 	animation: anim 3s infinite;
 }
 
