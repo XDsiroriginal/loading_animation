@@ -136,22 +136,22 @@ body {
 }
 
 #g_1 {
-	background: linear-gradient(90deg, #fd746c, #ff9068);
+	background: linear-gradient(90deg, #ee9ca7, #ffdde1);
 }
 #g_2 {
-	background: linear-gradient(90deg, #eacda3, #d6ae7b);
+	background: linear-gradient(90deg, #7F00FF, #E100FF);
 }
 #g_3 {
-	background: linear-gradient(90deg, #6a3093, #a044ff);
+	background: linear-gradient(90deg, #f12711, #f5af19);
 }
 #g_4 {
-	background: linear-gradient(90deg, #457fca, #5691c8);
+	background: linear-gradient(90deg, #5C258D, #4389A2);
 }
 #g_5 {
-	background: linear-gradient(90deg, #B24592, #F15F79);
+	background: linear-gradient(90deg, #373b44, #4286f4);
 }
 #g_6 {
-	background: linear-gradient(90deg, #C02425, #F0CB35);
+	background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
 }
 
 .button_in_g {
