@@ -9,7 +9,7 @@ var backgroundImage;
 var colors;
 let gradus = 0;
 let element_speed;
-let time = 1;
+let time = 2;
 let secta_1;
 let secta_2;
 
@@ -17,11 +17,11 @@ function speed_control(){
 	element_speed = event.target.id;
 
 	if (element_speed == "plus") {
-		time = time + 0.1;
+		time = time + 0.5;
 		console.log(element_speed + time);
 	}
-	else if (element_speed == "minus" && time >= 0){
-		time = time - 0.1;
+	else if (element_speed == "minus" && time >= 1){
+		time = time - 0.5;
 		console.log(element_speed + time);
 	}
 }
