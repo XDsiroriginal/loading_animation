@@ -10,43 +10,24 @@
 <body>
 	<div class = "load_box" id="loads">
 	</div>
-	<div class = "button_box">
-		<div class="button_box_in">
-			<div class="button">
-				<button class="button_in_g"  id="g_1" onclick="color()">
-					
-				</button>
-			</div>
-			<div class="button">
-				<button class="button_in_g"  id="g_2" onclick="color()">
-					
-				</button>
-			</div>
+	<div class="rgb_setting_box">
+		<div class="slider_box">
+		<div class="rgb_box" id="red_box">
+			<input type="range" min="0" max="255" value="0" class="slider" id="red">
 		</div>
-		<div class="button_box_in">
-			<div class="button">
-				<button class="button_in_g"  id="g_3" onclick="color()">
-					
-				</button>
-			</div>
-			<div class="button">
-				<button class="button_in_g"  id="g_4"onclick="color()">
-					
-				</button>
-			</div>
+		<div class="rgb_box" id="green_box">
+			<input type="range" min="0" max="255" value="0" class="slider" id="green">
 		</div>
-		<div class="button_box_in">
-			<div class="button">
-				<button class="button_in_g"  id="g_5" onclick="color()">
-					
-				</button>
-			</div>
-			<div class="button">
-				<button class="button_in_g"  id="g_6" onclick="color()">
-					
-				</button>
-			</div>
+			<div class="rgb_box" id="blue_box">
+			<input type="range" min="0" max="255" value="0" class="slider" id="blue">
 		</div>
+		</div>
+		<div class="button_box">
+			<button class="gradient" id="gra_1">
+				
+			</button>
+		</div>
+	</div>
 	</div>
 	<div class="speed_box">
 		<button class="speed_button" id="minus" onclick="speed_control()">
