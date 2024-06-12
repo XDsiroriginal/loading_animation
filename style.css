@@ -57,7 +57,7 @@ body {
 }
 
 .speed_box {
-	margin: 10px auto;
+	margin: 30px auto;
 	display: flex;
     justify-content: center;
     width: 100%;
@@ -70,3 +70,81 @@ body {
 	border: 3px solid white;
 	background-color: black;
 }
+
+.rgb_setting_box {
+	width: 90%;
+	height: auto;
+	margin: 30px auto;
+	border: 3px solid white;
+	border-radius: 10px;
+	background: gray;
+	display: flex;
+}
+
+.rgb_box {
+	width: 50%;
+	height: 40px;
+}
+
+.slider {
+	-webkit-appearance: none;
+	width: auto;
+	height: 15px;
+	margin: 10px auto;
+	margin-left: 10px;
+	border-radius: 15px;
+	background: white;
+}
+#red::-webkit-slider-thumb {
+	-webkit-appearance: none;
+  	appearance: none; 
+	background: red;
+	height: 15px;
+  	width: 15px;
+  	border-radius: 50%;
+  	background: gray;
+  	border: 3px solid red;
+}
+
+#green::-webkit-slider-thumb {
+	-webkit-appearance: none;
+  	appearance: none; 
+	background: green;
+	height: 15px;
+  	width: 15px;
+  	border-radius: 50%;
+  	background: gray;
+  	border: 3px solid green;
+}
+
+#blue::-webkit-slider-thumb {
+	-webkit-appearance: none;
+  	appearance: none; 
+	background: blue;
+	height: 15px;
+  	width: 15px;
+  	border-radius: 50%;
+  	background: gray;
+  	border: 3px solid blue;
+}
+
+.slider_box {
+	width: 50%;
+	height: auto;
+}
+
+.button_box {
+	width: 50%;
+	height: auto;
+}
+
+.gradient {
+	margin: 5px ;
+	width: 40px;
+	height: 40px;
+	border: 3px solid white;
+	border-radius: 10px;
+	background-color: gray;
+}
+
+ 
