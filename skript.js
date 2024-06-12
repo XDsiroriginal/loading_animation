@@ -13,6 +13,17 @@ let time = 2;
 let secta_1;
 let secta_2;
 
+let red_color_int;
+let red_slider_element;
+
+let green_color_int;
+let green_slider_element;
+
+let blue_color_int;
+let blue_slider_element;
+
+let bt_gradient_element;
+
 function speed_control(){
 	element_speed = event.target.id;
 
@@ -56,3 +67,23 @@ function rotate()
 }
 
 setInterval(rotate, time);
+
+function slider()
+{
+	red_slider_element = document.getElementById("red");
+	red_color_int = red_slider_element.value;
+	red_slider_element.style["background"] = "rgb(" + red_color_int + ",0 , 0, 1.0)";
+
+	green_slider_element = document.getElementById("green");
+	green_color_int = green_slider_element.value;
+	green_slider_element.style["background"] = "rgb(0 " + green_color_int + " , 0, 1.0)";
+
+	blue_slider_element = document.getElementById("blue");
+	blue_color_int = blue_slider_element.value;
+	blue_slider_element.style["background"] = "rgb( 0, 0, " + blue_color_int + ",1.0)";
+
+	bt_gradient_element = document.getElementById("gra_1");
+	bt_gradient_element.style["background-color"] = "rgb(" + red_color_int +","+ green_color_int +","+ blue_color_int + ",1.0)"
+}
+
+setInterval(slider, 10);
