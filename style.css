@@ -145,7 +145,7 @@ body {
 	height: 35px;
 	border: 3px solid white;
 	border-radius: 10px;
-	background-color: gray;
+	background-color: rgb(0, 0, 0);
 }
 .button_box_strok {
 	display: flex;
@@ -171,4 +171,27 @@ body {
  }
  #gra_7 {
  	visibility: hidden;
+ }
+
+ .gradient_p {
+ 	background-image: url("plus.png");
+ 	margin: 5px;
+	width: 35px;
+	height: 35px;
+	border: 3px solid white;
+	border-radius: 10px;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-color: black;
+ }
+.gradient_m {
+ 	background-image: url("minus.png");
+ 	margin: 5px;
+	width: 35px;
+	height: 35px;
+	border: 3px solid white;
+	border-radius: 10px;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-color: black;
  }
