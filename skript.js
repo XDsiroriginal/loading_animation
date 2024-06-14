@@ -82,8 +82,32 @@ function slider()
 	blue_color_int = blue_slider_element.value;
 	blue_slider_element.style["background"] = "rgb( 0, 0, " + blue_color_int + ",1.0)";
 
-	bt_gradient_element = document.getElementById("gra_1");
+	bt_gradient_element = document.getElementById("gra_" + index_bt);
 	bt_gradient_element.style["background-color"] = "rgb(" + red_color_int +","+ green_color_int +","+ blue_color_int + ",1.0)"
 }
 
 setInterval(slider, 10);
+
+let bt_plus_element;
+let index_bt = 1;
+let bt;
+
+function plus()
+{
+	bt_plus_element = document.getElementById("plus_bt");
+	if(index_bt < 8){
+		index_bt = index_bt + 1;
+		bt = document.getElementById("gra_" + index_bt);
+		bt.style["visibility"] = "visible";
+	}
+
+}
+function minus()
+{
+	bt_plus_element = document.getElementById("minus_bt");
+	if(index_bt > 1){
+		bt = document.getElementById("gra_" + index_bt);
+		bt.style["visibility"] = "hidden";
+		index_bt = index_bt - 1;
+	}
+}
