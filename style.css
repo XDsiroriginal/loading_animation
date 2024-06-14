@@ -3,6 +3,13 @@ body {
 	margin: 0px;
 }
 
+@media only screen and (max-width: 600px) {
+  .phone-border {
+    border: 1px solid black;
+    padding: 10px;
+  }
+}
+
 .load_box {
 	border: 6px solid;
 	border-image: linear-gradient(0deg, black, white) 5;
