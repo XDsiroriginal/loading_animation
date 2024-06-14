@@ -95,7 +95,7 @@ let bt;
 function plus()
 {
 	bt_plus_element = document.getElementById("plus_bt");
-	if(index_bt < 8){
+	if(index_bt < 7){
 		index_bt = index_bt + 1;
 		bt = document.getElementById("gra_" + index_bt);
 		bt.style["visibility"] = "visible";
