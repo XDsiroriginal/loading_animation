@@ -3,13 +3,6 @@ body {
 	margin: 0px;
 }
 
-@media only screen and (max-width: 600px) {
-  .phone-border {
-    border: 1px solid black;
-    padding: 10px;
-  }
-}
-
 .load_box {
 	border: 6px solid;
 	border-image: linear-gradient(0deg, black, white) 5;
@@ -143,15 +136,39 @@ body {
 .button_box {
 	width: 50%;
 	height: auto;
+	display: block;
 }
 
 .gradient {
 	margin: 5px ;
-	width: 40px;
-	height: 40px;
+	width: 35px;
+	height: 35px;
 	border: 3px solid white;
 	border-radius: 10px;
 	background-color: gray;
 }
+.button_box_strok {
+	display: flex;
+	width: auto;
+	height: auto;
+	justify-content: flex-end;
+}
 
- 
+ #gra_2 {
+ 	visibility: hidden;
+ }
+ #gra_3 {
+ 	visibility: hidden;
+ }
+ #gra_4 {
+ 	visibility: hidden;
+ }
+ #gra_5 {
+ 	visibility: hidden;
+ }
+ #gra_6 {
+ 	visibility: hidden;
+ }
+ #gra_7 {
+ 	visibility: hidden;
+ }
