@@ -56,6 +56,8 @@ function color()
 }
 
 let bt_index_rgb;
+let bt_border;
+let temp_index = 1;
 
 function rotate()
 {
@@ -109,7 +111,7 @@ let ar_bt_rgb = ["", "", "", "", "", "", ""];
 function plus()
 {
 	bt_plus_element = document.getElementById("plus_bt");
-	if(index_bt < 7){
+	if(index_bt < 6){
 		index_bt = index_bt + 1;
 		bt = document.getElementById("gra_" + index_bt);
 		bt.style["visibility"] = "visible";
@@ -130,9 +132,12 @@ function minus()
 
 let click_bt;
 let just_bt;
+let z_bt;
 
 function click_on_bt()
 {
+	z_bt = document.getElementById("gra_" + temp_index);
+	z_bt.style["border-color"] = "rgb(255, 255, 255)"
 	click_bt = event.target.id;
 	console.log(click_bt);
 	just_bt = document.getElementById(click_bt);
@@ -140,4 +145,6 @@ function click_on_bt()
 		index = click_bt.replace(/\D/g, "");
 		console.log(index);
 	}
+	just_bt.style["border-color"] = "rgb(255, 0, 0)"
+	temp_index = index;
 }
